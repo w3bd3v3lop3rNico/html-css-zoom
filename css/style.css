@@ -16,10 +16,6 @@ menu {
 	list-style: none;
 }
 
-img {
-	max-width: 100%;
-}
-
 figure > img {
 	display: block;
 	width: 100%;
@@ -38,12 +34,36 @@ figure > img {
 
 .app {
     height: 100vh;
-    padding: 40px 60px;
+    padding: 50px 70px;
+    position: relative;
 }
 
 .col-7 {
-    flex-grow: calc(100% / 7);
+    flex-basis: calc(100% / 7);
 }
+
+button {
+    line-height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    color: currentColor;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+/* TOP-RIGHT-BUTTONS */
+.top-right-btns {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    
+}
+
+/* .top-right-btns li > .button {
+    background-color: #4A4A4A;
+    color: white;
+} */
 
 
 
@@ -56,19 +76,20 @@ figure > img {
 .debug .container {
     background-color: red;
     border: 5px solid white;
-    padding: 20px;
+    padding: 50px;
     
 }
 .debug .row {
     min-height: 100%;
     background-color: blue;
     flex-wrap: wrap;
+    padding: 10px;
     
 }
 
-/* .debug .col-7 {
+.debug .col-7 {
     min-height: 15px;
     background-color: blueviolet;
     border: 5px solid black;
-    width: 40px;
-} */
+    width: 100%;
+}
