@@ -9,6 +9,12 @@ a {
 	text-decoration: none;
 	color: currentColor;
 }
+/* body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+} */
+
 
 ul,
 ol,
@@ -27,6 +33,11 @@ figure > img {
 	margin: 0 auto;
     height: 100%;
 }
+.large-container {
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
 
 .display-flex {
     display: flex;
@@ -34,8 +45,9 @@ figure > img {
 
 .app {
     height: 100vh;
-    padding: 50px 70px;
+    padding: 80px 280px;
     position: relative;
+    
 }
 
 .col-7 {
@@ -65,7 +77,19 @@ button {
     color: white;
 } */
 
+/* PAGE CONTENT */
 
+/* .page-content {
+    flex-grow: 1;
+} */
+
+/* FOOTER */
+
+footer {
+    position: sticky;
+    width: 100%;
+    padding: 0 150px;
+}
 
 /* DEBUGS */
 
@@ -92,4 +116,13 @@ button {
     background-color: blueviolet;
     border: 5px solid black;
     width: 100%;
+}
+
+.debug footer {
+    min-height: 30px;
+    background-color: violet;
+}
+.debug .large-container {
+    min-height: 30px;
+    background-color: white;
 }
