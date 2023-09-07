@@ -26,8 +26,26 @@ figure > img {
 }
 
 .container {
-	max-width: 1000px;
+	/* max-width: 1000px; */
     width: 100%;
 	margin: 0 auto;
+    height: 100%;
 }
+
+.app {
+    height: 100vh;
+    padding: 40px 60px;
+}
+
+
+
 /* DEBUGS */
+
+.debug .app {
+    background-color: black;
+}
+
+.debug .container {
+    background-color: red;
+    border: 5px solid white;
+}
