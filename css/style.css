@@ -1,0 +1,33 @@
+/* DEFAULT SETTING */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
+ul,
+ol,
+menu {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure > img {
+	display: block;
+	width: 100%;
+}
+
+.container {
+	max-width: 1000px;
+    width: 100%;
+	margin: 0 auto;
+}
+/* DEBUGS */
