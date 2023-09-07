@@ -32,9 +32,17 @@ figure > img {
     height: 100%;
 }
 
+.display-flex {
+    display: flex;
+}
+
 .app {
     height: 100vh;
     padding: 40px 60px;
+}
+
+.col-7 {
+    flex-grow: calc(100% / 7);
 }
 
 
@@ -48,4 +56,19 @@ figure > img {
 .debug .container {
     background-color: red;
     border: 5px solid white;
+    padding: 20px;
+    
 }
+.debug .row {
+    min-height: 100%;
+    background-color: blue;
+    flex-wrap: wrap;
+    
+}
+
+/* .debug .col-7 {
+    min-height: 15px;
+    background-color: blueviolet;
+    border: 5px solid black;
+    width: 40px;
+} */
