@@ -34,12 +34,12 @@ figure > img {
 
 .container {
 	max-width: 1000px;
-    /* width: 100%; */
+    width: 100%;
 	margin: 0 auto;
     /* height: 100%; */
 }
 .large-container {
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
     /* width: 100%; */
     
@@ -95,7 +95,7 @@ button {
     position: relative;
     height: 50px;
     flex-basis: calc(100% / 7);
-    width: 100%;
+    /* width: 100%; */
     justify-content: center;
     align-items: center;
 
@@ -124,6 +124,21 @@ button {
 footer {
     position: sticky;
     margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon { 
+    position: relative;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50px;
+}
+.sort-up {
+    position: absolute;
+    top: 50%;
+    right: 0;
 }
 
 
