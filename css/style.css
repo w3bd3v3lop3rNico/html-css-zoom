@@ -35,10 +35,7 @@ figure > img {
     justify-content: center;
     position: relative;
 }
-.content {
-    flex-grow: 1;
-    overflow: auto;
-}
+
     
     
     
@@ -59,6 +56,41 @@ figure > img {
     color: white;
     background-color: #4A4A4A;
     gap: 10px;
+}
+
+/* content */
+.content {
+    flex-grow: 1;
+    overflow: auto;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+}
+.all-webcams {
+	flex-wrap: wrap;
+	justify-content: center;
+    align-items: center;
+}
+
+.webcam {
+	width: 200px;
+	padding: 5px;
+	position: relative;
+}
+.webcam img {
+	display: block;
+	aspect-ratio: 16/9;
+	object-fit: cover;
+	width: 100%;
+}
+.webcam__label {
+	position: absolute;
+	padding: 4px;
+	display: block;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: white;
+	bottom: 5px;
+	left: 5px;
 }
 /* asidebar */
 .asidebar {
@@ -97,11 +129,11 @@ figure > img {
     /* min-height: 100%; */
 }
 
-.debug .content {
+/* .debug .content {
     min-height: 300px;
     border: 3px solid red;
     width: 800px;
-}
+} */
 /* .debug .asidebar {
     border: 3px solid blue;
     min-height: 30px;
@@ -110,6 +142,9 @@ figure > img {
 } */
 .debug .toolbar-item {
     color: white;
+}
+.debug .all-webcams {
+    border: 3px solid red;
 }
 
 
