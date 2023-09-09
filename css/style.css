@@ -33,14 +33,28 @@ figure > img {
     flex-grow: 1;
     overflow: auto;
 }
+/* asidebar */
 .asidebar {
     flex-shrink: 0;
     display: flex;
     justify-content: space-between;
     background-color: #222222;
 }
-.toolbar-item {
+.display-flex {
     display: flex;
+}
+.toolbar-item{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+    padding: 5px;
+}
+.item-core i {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 20px;
 }
 /* debug */
 
