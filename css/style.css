@@ -19,6 +19,7 @@ menu {
 button {
     background-color: transparent;
     border: none;
+    color: currentColor;
 }
 figure > img {
 	display: block;
@@ -32,12 +33,33 @@ figure > img {
     background-color: black;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 .content {
     flex-grow: 1;
     overflow: auto;
 }
+    
+    
+    
+    
+    
 
+
+/* TOP-RIGHT-BUTTONS */
+.top-right-btns {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    line-height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    border-radius: 10%;
+    color: white;
+    background-color: #4A4A4A;
+    gap: 10px;
+}
 /* asidebar */
 .asidebar {
     flex-shrink: 0;
