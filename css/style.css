@@ -16,6 +16,10 @@ menu {
 	list-style: none;
 }
 
+button {
+    background-color: transparent;
+    border: none;
+}
 figure > img {
 	display: block;
 	width: 100%;
@@ -33,12 +37,14 @@ figure > img {
     flex-grow: 1;
     overflow: auto;
 }
+
 /* asidebar */
 .asidebar {
     flex-shrink: 0;
     display: flex;
     justify-content: space-between;
     background-color: #222222;
+    min-width: 1000px;
 }
 .display-flex {
     display: flex;
@@ -46,7 +52,7 @@ figure > img {
 .toolbar-item{
     color: white;
     text-align: center;
-    font-size: 20px;
+    font-size: 10px;
     align-items: center;
     padding: 5px;
 }
@@ -56,6 +62,12 @@ figure > img {
     text-align: center;
     font-size: 20px;
 }
+.button-end {
+    background-color: #4A4A4A;
+    color: red;
+    padding: 0 5px;
+}
+
 /* debug */
 
 .debug .app {
@@ -68,12 +80,12 @@ figure > img {
     border: 3px solid red;
     width: 800px;
 }
-.debug .asidebar {
-    /* border: 3px solid blue; */
+/* .debug .asidebar {
+    border: 3px solid blue;
     min-height: 30px;
-    /* min-width: 1000px; */
+    min-width: 1000px;
 
-}
+} */
 .debug .toolbar-item {
     color: white;
 }
