@@ -39,6 +39,9 @@ figure > img {
     justify-content: space-between;
     background-color: #222222;
 }
+.toolbar-item {
+    display: flex;
+}
 /* debug */
 
 .debug .app {
@@ -51,12 +54,16 @@ figure > img {
     border: 3px solid red;
     width: 800px;
 }
-.debug .sidebar {
-    border: 3px solid blue;
+.debug .asidebar {
+    /* border: 3px solid blue; */
     min-height: 30px;
-    min-width: 1000px;
+    /* min-width: 1000px; */
 
 }
+.debug .toolbar-item {
+    color: white;
+}
+
 
 
 
