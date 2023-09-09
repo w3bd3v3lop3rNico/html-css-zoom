@@ -20,11 +20,6 @@ figure > img {
 	display: block;
 	width: 100%;
 }
-
-.container {
-	width: 1000px;
-	margin: 0 auto;
-}
 .app {
     height: 100vh;
     overflow: hidden;
@@ -33,6 +28,16 @@ figure > img {
     background-color: black;
     align-items: center;
     justify-content: center;
+}
+.content {
+    flex-grow: 1;
+    overflow: auto;
+}
+.asidebar {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
 }
 /* debug */
 
@@ -45,6 +50,12 @@ figure > img {
     min-height: 300px;
     border: 3px solid red;
     width: 800px;
+}
+.debug .sidebar {
+    border: 3px solid blue;
+    min-height: 30px;
+    min-width: 1000px;
+
 }
 
 
