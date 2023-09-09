@@ -30,12 +30,22 @@ figure > img {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
 }
 /* debug */
 
 .debug .app {
     border: 3px solid red;
-    min-height: 100%;
-
+    /* min-height: 100%; */
 }
+
+.debug .content {
+    min-height: 300px;
+    border: 3px solid red;
+    width: 800px;
+}
+
+
 
